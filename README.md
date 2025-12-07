@@ -147,7 +147,7 @@ After you apply the Terraform configuration and copy the ALB DNS, open it in you
 To remove all AWS resources created by this project:
 
 ```
-terraform destroy -auto-approve
+terraform destroy 
 ```
 
 ## 🧰 Troubleshooting
