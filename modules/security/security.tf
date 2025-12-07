@@ -18,7 +18,7 @@ resource "aws_security_group" "alb_sg" {
     description = "HTTP from Internet"
     from_port   = 80
     to_port     = 80
-    protocol    = "HTTP"
+    protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
