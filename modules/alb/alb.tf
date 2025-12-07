@@ -47,7 +47,6 @@ resource "aws_lb_target_group" "app" {
     healthy_threshold   = 5
     unhealthy_threshold = 2
     timeout             = 10
-    success_code = 200
 
   }
 
