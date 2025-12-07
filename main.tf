@@ -34,3 +34,12 @@ output "private_subnets" {
 output "interner_gateway" {
     value = module.subnets.interner_gateway_id
 }
+
+output "aws_nat_gateway" {
+    value = module.subnets.aws_nat_gateway_ids
+}
+
+
+output "nat_elastic_ip" {
+    value = module.subnets.aws_eip_ids
+}
