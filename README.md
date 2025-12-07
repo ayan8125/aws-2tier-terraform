@@ -86,8 +86,8 @@ Enter:
 ### 2. Clone this repository
 
 ```
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/ayan8125/aws-2tier-terraform.git
+cd aws-2tier-terraform
 ```
 
 ### 3. Initialize Terraform
